@@ -13,6 +13,7 @@ body {
 
 /* HEADER  */
 header {
+	margin-top: 44px; 
 	h1 {display: none;}
 	img {padding: 1rem 0 .5rem 2%; display: block;}
 } // end header
@@ -54,7 +55,7 @@ nav {
 			margin: 6px 0 6px 2%;
 		}
 
-		ul.closed{display: none;}
+		ul.closed {display: none;}
 }//navigation ends
 
 

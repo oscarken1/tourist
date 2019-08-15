@@ -103,15 +103,17 @@ body {
   font-size: 16px; }
 
 /* HEADER  */
-header h1 {
-  display: none; }
-header img {
-  padding: 1rem 0 .5rem 2%;
-  display: block; }
+header {
+  margin-top: 44px; }
+  header h1 {
+    display: none; }
+  header img {
+    padding: 1rem 0 .5rem 2%;
+    display: block; }
 
 /* NAVigation  */
 nav {
-  background-color: #900;
+  background-color: #3f228f;
   position: absolute;
   top: 0;
   width: 100%; }
@@ -182,6 +184,8 @@ footer {
   /*      NAVIgation       */
   nav {
     position: relative; }
+    nav ul.closed {
+      display: block; }
     nav button {
       display: none; }
     nav ul {
@@ -197,11 +201,11 @@ footer {
     nav ul li a span {
       display: none; }
     nav ul li a.hover {
-      background-color: #660000; }
+      background-color: #2d1866; }
     nav ul li ul {
       left: -999;
       z-index: 99;
-      background-color: #cc0000;
+      background-color: #512cb8;
       position: absolute; }
     nav ul li.hover ul {
       left: auto; }

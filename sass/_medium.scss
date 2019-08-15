@@ -1,6 +1,7 @@
 /*      NAVIgation       */
 nav {
     position: relative;
+    ul.closed {display: block;}
     button {display: none;}
 
     ul {
