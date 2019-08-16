@@ -18,22 +18,23 @@ nav {
         -webkit-transition: background 0.3s linear;
     }
 
-    ul li a span{display:none;}
+    ul li a span{display: none;}
 
-    ul li a.hover {background-color: darken($menuColor, 10%); }
+    ul li a:hover {background-color: darken($menuColor, 20%); }
 
     ul li ul {
-        left: -999;
+        left: -999em;
         z-index: 99;
         background-color: lighten($menuColor, 10%);
         position: absolute;
+        width: 10rem;
     }
-    ul li.hover ul{left: auto; }
+    ul li:hover ul  {left: auto;}
 
     ul li ul li{
         float: none;
         border-bottom: 1px solid rgba(0,0,0,0.2);
-        width: 10rem;
+        
     }
 }
 
